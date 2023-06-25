@@ -2,7 +2,9 @@
 // question
 // Given two integers n and r, find nCr. Since the answer may be very large, calculate the answer modulo 109+7.
 
+ // we can think of ncr = n-1cr-1 +(n-1cr)
 
+     
 class Solution{
 public:
     int nCr(int n, int r){
